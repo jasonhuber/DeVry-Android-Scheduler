@@ -7,9 +7,7 @@
 <TextView  
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 
-    android:text="Click to see all departments"
-    android:id="@+id/txtdept"
-    android:focusable="true"
-    android:clickable="true"
+    android:text="@string/hello"
+    android:id="@+id/text1"
     />
 </LinearLayout>
