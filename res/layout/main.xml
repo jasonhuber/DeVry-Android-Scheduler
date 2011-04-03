@@ -6,9 +6,41 @@
     >
 <TextView  
     android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="Click to see all departments"
+    android:layout_height="wrap_content"
+    android:height="50px" 
+    android:text="Phoenix Area"
+    android:textSize="48sp"
+    android:id="@+id/txtPhoenix"
+    android:focusable="true"
+    android:clickable="true"
+    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:height="50px" 
+    android:text="Mesa, Scottsdate, and Glendale"
+    android:textSize="12sp"
+    android:id="@+id/txtss"
+    android:focusable="true"
+    android:clickable="true"
+    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:height="30px" 
+    android:text="Show All Classes"
+    android:textSize="24sp"
     android:id="@+id/txtdept"
+    android:focusable="true"
+    android:clickable="true"
+    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:height="50px" 
+    android:text="Select this option to browse courses by department (ACCT, CIS, etc)"
+    android:textSize="10sp"
+    android:id="@+id/txtss"
     android:focusable="true"
     android:clickable="true"
     />

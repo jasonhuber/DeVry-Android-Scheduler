@@ -14,7 +14,8 @@
 		 <activity android:name=".Professors"/>
 		 <activity android:name=".Departments"/>
 		 <activity android:name=".Courses"/>
-		 <activity android:name="Classes"/>
+		 <activity android:name=".Classes"/>
+    	 <activity android:name=".CourseDetail"/>
     </application>
 	<uses-permission android:name="android.permission.INTERNET" />  
 </manifest>

@@ -56,7 +56,7 @@ public class Departments extends ListActivity implements OnClickListener {
                         prof.CourseName= session.getString("CourseName");
                         professors.add(prof);
 	                }
-	                CourseListAdaptor adaptor = new CourseListAdaptor(this,R.layout.justlist, professors); 
+	                CourseListAdaptor adaptor = new CourseListAdaptor(this,R.layout.departmentlist, professors); 
 	        		 setListAdapter(adaptor);  
 	        }       	
 
@@ -83,7 +83,7 @@ public class Departments extends ListActivity implements OnClickListener {
                 if (v == null) {
                         LayoutInflater vi = (LayoutInflater) getSystemService                        
 (Context.LAYOUT_INFLATER_SERVICE);
-                        v = vi.inflate(R.layout.justlist , null);
+                        v = vi.inflate(R.layout.departmentlist , null);
                 }
 
                final Course o = professors.get(position);
